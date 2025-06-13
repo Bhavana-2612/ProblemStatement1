@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdbool.h>
 #include "FreeRTOS.h"
 #include "task.h"
 #include "queue.h"
@@ -80,3 +81,4 @@ int main(void) {
     // If scheduler fails to start
     while (1);
 }
+
